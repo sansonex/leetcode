@@ -1,6 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace LeetCode.Challenges;
+namespace LeetCode.Challenges.Easy;
 
 [TestClass]
 public class _26
