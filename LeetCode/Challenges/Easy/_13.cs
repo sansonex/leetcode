@@ -11,7 +11,7 @@ namespace LeetCode.Challenges.Easy
         [DataRow("MCMXCIV", 1994)]
         public void Main(string s, int expected)
         {
-            // Arrange
+            // Arrange & Act & Assert
             Assert.AreEqual(RomanToInt(s), expected);
         }
 
