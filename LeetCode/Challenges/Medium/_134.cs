@@ -20,9 +20,9 @@ namespace LeetCode.Challenges.Medium
         {
             if (gas.Sum() < cost.Sum())
                 return -1;
-            
+
             var highGasWithLessCost = GetHighGasWithLessCost(gas, cost);
-            
+
             foreach (var index in highGasWithLessCost)
             {
                 var tank = 0;
