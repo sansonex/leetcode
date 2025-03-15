@@ -16,8 +16,10 @@ namespace LeetCode.Challenges.Medium
         public int Jump(int[] nums)
         {
             if (nums.Length <= 1)
+            {
                 return 0;
-            
+            }
+
             var s = 0;
             var t = nums.Length - 1;
 
@@ -37,7 +39,9 @@ namespace LeetCode.Challenges.Medium
                 }
 
                 if (t == 0)
+                {
                     break;
+                }
             }
 
             return s;
